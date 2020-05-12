@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>425053112410-cdcpkp10u31k03b9g4vbbjd1v4pdltce.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.425053112410-cdcpkp10u31k03b9g4vbbjd1v4pdltce</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsl-xbH1YQG4SIEzE-ifUm8C1ftB6jx88</string>
+	<key>GCM_SENDER_ID</key>
+	<string>425053112410</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>darien.TextReaderiOS</string>
+	<key>PROJECT_ID</key>
+	<string>iosimagetextrecognizer</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iosimagetextrecognizer.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:425053112410:ios:529b05f04238f372743063</string>
+	<key>DATABASE_URL</key>
+	<string>https://iosimagetextrecognizer.firebaseio.com</string>
+</dict>
+</plist>

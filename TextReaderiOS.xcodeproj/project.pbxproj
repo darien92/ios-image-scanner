@@ -3,29 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142FE2D72465B9D70059542F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FE2D62465B9D70059542F /* UIViewExtensions.swift */; };
+		148F4EAA2465DF7F009C7D2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 148F4EA92465DF7F009C7D2D /* GoogleService-Info.plist */; };
+		148F4EAC2465E482009C7D2D /* ReadTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F4EAB2465E482009C7D2D /* ReadTextViewController.swift */; };
+		149A811E246A506700518CF3 /* SavedTextsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A811D246A506700518CF3 /* SavedTextsViewModel.swift */; };
+		149A8124246A527F00518CF3 /* SaveTextRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A8123246A527F00518CF3 /* SaveTextRepo.swift */; };
+		149A8126246A55A200518CF3 /* StoredTextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A8125246A55A200518CF3 /* StoredTextsViewController.swift */; };
+		149A8129246A58B300518CF3 /* SavedTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A8127246A58B300518CF3 /* SavedTextCell.swift */; };
+		149A812A246A58B300518CF3 /* SavedTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149A8128246A58B300518CF3 /* SavedTextCell.xib */; };
+		14C7F1722465D38A00C3B32F /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C7F1712465D38A00C3B32F /* UIImageExtensions.swift */; };
+		14C7F1752465D78E00C3B32F /* TextReaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C7F1742465D78E00C3B32F /* TextReaderHandler.swift */; };
 		14F042142465002A000EF625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F042132465002A000EF625 /* AppDelegate.swift */; };
 		14F042162465002A000EF625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F042152465002A000EF625 /* SceneDelegate.swift */; };
-		14F042182465002A000EF625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F042172465002A000EF625 /* ViewController.swift */; };
+		14F042182465002A000EF625 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F042172465002A000EF625 /* CameraViewController.swift */; };
 		14F0421B2465002A000EF625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F042192465002A000EF625 /* Main.storyboard */; };
 		14F0421E2465002A000EF625 /* TextReaderiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14F0421C2465002A000EF625 /* TextReaderiOS.xcdatamodeld */; };
 		14F042202465002A000EF625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F0421F2465002A000EF625 /* Assets.xcassets */; };
 		14F042232465002A000EF625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F042212465002A000EF625 /* LaunchScreen.storyboard */; };
+		CF794580310782AC9C49D1D0 /* Pods_TextReaderiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9055CC3A9F4E9BD843824F /* Pods_TextReaderiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		142FE2D62465B9D70059542F /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		148F4EA92465DF7F009C7D2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		148F4EAB2465E482009C7D2D /* ReadTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTextViewController.swift; sourceTree = "<group>"; };
+		149A811D246A506700518CF3 /* SavedTextsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTextsViewModel.swift; sourceTree = "<group>"; };
+		149A8123246A527F00518CF3 /* SaveTextRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTextRepo.swift; sourceTree = "<group>"; };
+		149A8125246A55A200518CF3 /* StoredTextsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredTextsViewController.swift; sourceTree = "<group>"; };
+		149A8127246A58B300518CF3 /* SavedTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTextCell.swift; sourceTree = "<group>"; };
+		149A8128246A58B300518CF3 /* SavedTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedTextCell.xib; sourceTree = "<group>"; };
+		14C7F1712465D38A00C3B32F /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		14C7F1742465D78E00C3B32F /* TextReaderHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderHandler.swift; sourceTree = "<group>"; };
 		14F042102465002A000EF625 /* TextReaderiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextReaderiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F042132465002A000EF625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F042152465002A000EF625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14F042172465002A000EF625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F042172465002A000EF625 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		14F0421A2465002A000EF625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14F0421D2465002A000EF625 /* TextReaderiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextReaderiOS.xcdatamodel; sourceTree = "<group>"; };
 		14F0421F2465002A000EF625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F042222465002A000EF625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F042242465002A000EF625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9055CC3A9F4E9BD843824F /* Pods_TextReaderiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextReaderiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915D9AF2B2F56FCC787EB1A /* Pods-TextReaderiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextReaderiOS.debug.xcconfig"; path = "Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CC020F65DD10222A5DBC55F8 /* Pods-TextReaderiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextReaderiOS.release.xcconfig"; path = "Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF794580310782AC9C49D1D0 /* Pods_TextReaderiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142FE2D52465B9BE0059542F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				142FE2D62465B9D70059542F /* UIViewExtensions.swift */,
+				14C7F1712465D38A00C3B32F /* UIImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		142FE2D82465BA2A0059542F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14F042172465002A000EF625 /* CameraViewController.swift */,
+				148F4EAB2465E482009C7D2D /* ReadTextViewController.swift */,
+				149A8125246A55A200518CF3 /* StoredTextsViewController.swift */,
+				149A8127246A58B300518CF3 /* SavedTextCell.swift */,
+				149A8128246A58B300518CF3 /* SavedTextCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		149A811C246A504B00518CF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				149A811D246A506700518CF3 /* SavedTextsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		149A8122246A526800518CF3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				149A8123246A527F00518CF3 /* SaveTextRepo.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		14C7F1732465D75A00C3B32F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				14C7F1742465D78E00C3B32F /* TextReaderHandler.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 		14F0420724650029000EF625 = {
 			isa = PBXGroup;
 			children = (
 				14F042122465002A000EF625 /* TextReaderiOS */,
 				14F042112465002A000EF625 /* Products */,
+				F2FFE2E77F70B1F1ADAD9D39 /* Pods */,
+				C4804C75996F0727E7AF2147 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +130,38 @@
 		14F042122465002A000EF625 /* TextReaderiOS */ = {
 			isa = PBXGroup;
 			children = (
+				149A8122246A526800518CF3 /* Repositories */,
+				149A811C246A504B00518CF3 /* ViewModels */,
+				14C7F1732465D75A00C3B32F /* UseCases */,
+				142FE2D82465BA2A0059542F /* Views */,
+				142FE2D52465B9BE0059542F /* Extensions */,
 				14F042132465002A000EF625 /* AppDelegate.swift */,
 				14F042152465002A000EF625 /* SceneDelegate.swift */,
-				14F042172465002A000EF625 /* ViewController.swift */,
 				14F042192465002A000EF625 /* Main.storyboard */,
 				14F0421F2465002A000EF625 /* Assets.xcassets */,
 				14F042212465002A000EF625 /* LaunchScreen.storyboard */,
 				14F042242465002A000EF625 /* Info.plist */,
+				148F4EA92465DF7F009C7D2D /* GoogleService-Info.plist */,
 				14F0421C2465002A000EF625 /* TextReaderiOS.xcdatamodeld */,
 			);
 			path = TextReaderiOS;
+			sourceTree = "<group>";
+		};
+		C4804C75996F0727E7AF2147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9055CC3A9F4E9BD843824F /* Pods_TextReaderiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FFE2E77F70B1F1ADAD9D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9915D9AF2B2F56FCC787EB1A /* Pods-TextReaderiOS.debug.xcconfig */,
+				CC020F65DD10222A5DBC55F8 /* Pods-TextReaderiOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F042272465002A000EF625 /* Build configuration list for PBXNativeTarget "TextReaderiOS" */;
 			buildPhases = (
+				AB6ACA417C0B1B15BE110F33 /* [CP] Check Pods Manifest.lock */,
 				14F0420C2465002A000EF625 /* Sources */,
 				14F0420D2465002A000EF625 /* Frameworks */,
 				14F0420E2465002A000EF625 /* Resources */,
+				DF1909721449C30A729D0C83 /* [CP] Embed Pods Frameworks */,
+				E7C2C9C2EE54D0B37A0F6945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F042232465002A000EF625 /* LaunchScreen.storyboard in Resources */,
+				148F4EAA2465DF7F009C7D2D /* GoogleService-Info.plist in Resources */,
+				149A812A246A58B300518CF3 /* SavedTextCell.xib in Resources */,
 				14F042202465002A000EF625 /* Assets.xcassets in Resources */,
 				14F0421B2465002A000EF625 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +235,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB6ACA417C0B1B15BE110F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextReaderiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1909721449C30A729D0C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C2C9C2EE54D0B37A0F6945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextReaderiOS/Pods-TextReaderiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14F0420C2465002A000EF625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F042182465002A000EF625 /* ViewController.swift in Sources */,
+				14F042182465002A000EF625 /* CameraViewController.swift in Sources */,
+				142FE2D72465B9D70059542F /* UIViewExtensions.swift in Sources */,
+				149A8129246A58B300518CF3 /* SavedTextCell.swift in Sources */,
 				14F0421E2465002A000EF625 /* TextReaderiOS.xcdatamodeld in Sources */,
+				14C7F1722465D38A00C3B32F /* UIImageExtensions.swift in Sources */,
 				14F042142465002A000EF625 /* AppDelegate.swift in Sources */,
+				149A811E246A506700518CF3 /* SavedTextsViewModel.swift in Sources */,
+				149A8126246A55A200518CF3 /* StoredTextsViewController.swift in Sources */,
 				14F042162465002A000EF625 /* SceneDelegate.swift in Sources */,
+				149A8124246A527F00518CF3 /* SaveTextRepo.swift in Sources */,
+				14C7F1752465D78E00C3B32F /* TextReaderHandler.swift in Sources */,
+				148F4EAC2465E482009C7D2D /* ReadTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +452,7 @@
 		};
 		14F042282465002A000EF625 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9915D9AF2B2F56FCC787EB1A /* Pods-TextReaderiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +471,7 @@
 		};
 		14F042292465002A000EF625 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC020F65DD10222A5DBC55F8 /* Pods-TextReaderiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
