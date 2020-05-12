@@ -11,6 +11,7 @@ import UIKit
 class StoredTextsViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var table: UITableView!
+    @IBOutlet weak var searchText: UISearchBar!
     
     var selectedText:String?
     var textList:Array<SavedText> = Array<SavedText>()
@@ -66,6 +67,12 @@ extension StoredTextsViewController:UITableViewDelegate, UITableViewDataSource{
         self.selectedText = textList[indexPath.row].text
         tableView.deselectRow(at: indexPath, animated: true)
         self.performSegue(withIdentifier: "ReadTextSegue", sender: self)
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            savedTextViewModel.deleteText(text: textList[indexPath.row].text!, searchQuery: searchText.text!)
+        }
     }
 }
 

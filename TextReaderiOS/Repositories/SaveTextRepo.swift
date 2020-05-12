@@ -28,7 +28,6 @@ struct SaveTextRepo {
     }
     
     func deleteSelectedItem(index:Int, items:inout Array<SavedText>) {
-        items.remove(at: index)
         context.delete(items[index])
         saveContext()
     }

@@ -192,6 +192,7 @@
                     <navigationItem key="navigationItem" id="FaZ-CW-fWo"/>
                     <connections>
                         <outlet property="searchBar" destination="NzP-kW-YTf" id="IBt-0e-yhr"/>
+                        <outlet property="searchText" destination="NzP-kW-YTf" id="FR0-zl-t4Q"/>
                         <outlet property="table" destination="ZVd-ze-kWe" id="9Rp-X8-WGn"/>
                         <segue destination="rKV-Ok-xfv" kind="show" identifier="ReadTextSegue" id="j8P-XR-CYK"/>
                     </connections>
